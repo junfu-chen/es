@@ -60,7 +60,7 @@ public class AopProxyUtils {
 
 
     /**
-     * 移除代理对象的异步调用支持
+     * 移除代理对象的事务切面支持
      * @return
      */
     public static void removeTransactional(Object proxy) {
